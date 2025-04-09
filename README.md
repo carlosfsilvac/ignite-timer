@@ -1,38 +1,43 @@
-<p align="center">
-  <img alt="Rocketseat Education" src="https://avatars.githubusercontent.com/u/69590972?s=200&v=4" width="100px" />
-</p>
+# Ignite Timer
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=Rocketseat&message=Education&color=8257e5&labelColor=202024" alt="Rocketseat Project" />
-  <a href="LICENSE"><img  src="https://img.shields.io/static/v1?label=License&message=MIT&color=8257e5&labelColor=202024" alt="License"></a>
-</p>
+![Screenshot](./screenshot.png)
 
+A simple and practical front-end project to help you manage your time effectively!
 
-## 💻 Projeto
+## Description
 
-02-ignite-timer
+Ignite Timer is an interactive timer that allows you to set a specific time to dedicate to a task. With just a few clicks, you can start the timer and focus on your work. When the time is up, the timer automatically resets, allowing you to start another cycle.
 
-## 📝 Licença
+## Features
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+* Set project name
+* Set dedication time (in minutes)
+* Start and pause timer
+* Automatic timer reset when time is up
+* History of counters in a separate table
 
----
+## Technologies Used
 
-<p align="center">
-  Feito com 💜 by Rocketseat
-</p>
+* React
+* TypeScript
+* Styled Components
 
+## Getting Started
 
-<!--START_SECTION:footer-->
+1. Clone the repository to your local machine
+2. Run `npm install` to install dependencies
+3. Run `npm start` to start the development server
+4. Open `http://localhost:3000` in your preferred browser
 
-<br />
-<br />
+## Usage
 
-<p align="center">
-  <a href="https://discord.gg/rocketseat" target="_blank">
-    <img align="center" src="https://storage.googleapis.com/golden-wind/comunidade/rodape.svg" alt="banner"/>
-  </a>
-</p>
+1. Enter project name and dedication time in the respective fields
+2. Click the "Play" button to start the timer
+3. Watch the time remaining and, when it's up, the timer will automatically reset
+4. View the history of counters in the "History" table
 
-<!--END_SECTION:footer-->
+### Future Plans
 
+* Fix negative counter when stay in other page
+* Improve UI/UX
+* Fix tab title timer when change page
